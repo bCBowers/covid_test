@@ -17,7 +17,7 @@ def entry(bot, update):
         pass
     except Exception as e:
         logging.error(e)
-        bot.send_message(chat_id="-1001429652488", text=str(e))
+        bot.send_message(chat_id="-742059856", text=str(e))
         pass
 
     if update.callback_query:
